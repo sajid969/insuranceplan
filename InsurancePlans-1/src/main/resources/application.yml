@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: plan
+    url: jdbc:h2:mem:testdb
+    username: plan
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+plan-api:
+ messages:
+  planSaveSuccess : plan saved successfully
+  planSaveFail : plan not saved
+  planUpdateSuccess : plan updated successfully
+  planUpdateFail : plan updated failed
+  planDeleteSuccess : plan deleted successfully
+  planDeleteFail : plan deleted failed
+  planStatusSuccess : plan status-changer successfully
+  planStatusFail : plan status-changer failed
